@@ -19,14 +19,14 @@ function App() {
             <Button color="inherit" component={Link} to="/about">自己紹介</Button>
             
             <Button color="inherit" component={Link} to="/achievements">実績</Button>
-            <Button color="inherit" component={Link} to="/contact">お問い合わせ</Button>
+            <Button color="inherit" component={Link} to="/consultation">ご相談</Button>
           </Toolbar>
         </AppBar>
 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Consultation />} /> {/* 新しいルートを追加 */}
+          <Route path="/consultation" element={<Consultation />} /> {/* 新しいルートを追加 */}
           {/* 他のルートもここに追加します */}
         </Routes>
       </div>

@@ -10,7 +10,7 @@ const Consultation: React.FC = () => {
             糖尿病についてのご相談
           </Typography>
           <Typography variant="body1" paragraph>
-            糖尿病に関するご質問や、栄養指導のご依頼など、お気軽にお問い合わせください。
+            糖尿病に関するご質問や、栄養指導のご依頼など、お気軽にご相談ください。
             皆様の健康をサポートするため、管理栄養士が丁寧に対応させていただきます。
           </Typography>
 
@@ -27,11 +27,11 @@ const Consultation: React.FC = () => {
           </ul>
           <Typography variant="body1" paragraph>
             お支払い方法は、銀行振込またはクレジットカード決済（準備中）となります。
-            詳細はお問い合わせ後にご案内させていただきます。
+            詳細はご相談後にご案内させていただきます。
           </Typography>
 
           <Typography variant="h5" component="h2" gutterBottom sx={{ mt: 4 }}>
-            お問い合わせフォーム
+            ご相談フォーム
           </Typography>
           <form noValidate autoComplete="off">
             <TextField
@@ -68,7 +68,7 @@ const Consultation: React.FC = () => {
           </form>
 
           <Typography variant="h5" component="h2" gutterBottom sx={{ mt: 4 }}>
-            お電話でのお問い合わせ
+            お電話でのご相談
           </Typography>
           <Typography variant="body1" paragraph>
             お急ぎの場合は、お電話でもご相談を承っております。
