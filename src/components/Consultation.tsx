@@ -74,11 +74,27 @@ const Consultation: React.FC = () => {
             お急ぎの場合は、お電話でもご相談を承っております。
           </Typography>
           <Typography variant="h6" component="p">
-            電話番号: XXX-XXXX-XXXX
+            電話番号: 090-8635-2819
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            受付時間: 平日 9:00 - 17:00
+            受付時間:
           </Typography>
+          <table style={{ borderCollapse: 'collapse', width: '250px', margin: '0 auto' }}>
+            <tbody>
+              <tr>
+                <td style={{ textAlign: 'left', paddingRight: '0px', whiteSpace: 'nowrap' }}><Typography variant="body2" color="text.secondary">月、火</Typography></td>
+                <td style={{ textAlign: 'left' }}><Typography variant="body2" color="text.secondary">9:00 - 17:00</Typography></td>
+              </tr>
+              <tr>
+                <td style={{ textAlign: 'left', paddingRight: '0px', whiteSpace: 'nowrap' }}><Typography variant="body2" color="text.secondary">水曜</Typography></td>
+                <td style={{ textAlign: 'left' }}><Typography variant="body2" color="text.secondary">休み</Typography></td>
+              </tr>
+              <tr>
+                <td style={{ textAlign: 'left', paddingRight: '0px', whiteSpace: 'nowrap' }}><Typography variant="body2" color="text.secondary">木、金</Typography></td>
+                <td style={{ textAlign: 'left' }}><Typography variant="body2" color="text.secondary">9:00 - 16:00</Typography></td>
+              </tr>
+            </tbody>
+          </table>
 
         </CardContent>
       </Card>

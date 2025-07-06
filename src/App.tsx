@@ -17,8 +17,8 @@ function App() {
             </Typography>
             <Button color="inherit" component={Link} to="/">ホーム</Button>
             <Button color="inherit" component={Link} to="/about">自己紹介</Button>
-            <Button color="inherit" component={Link} to="/services">サービス</Button>
-            <Button color="inherit" component={Link} to="/resources">リソース</Button>
+            
+            <Button color="inherit" component={Link} to="/achievements">実績</Button>
             <Button color="inherit" component={Link} to="/contact">お問い合わせ</Button>
           </Toolbar>
         </AppBar>
